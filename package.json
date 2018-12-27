@@ -1,0 +1,14 @@
+{
+  "name": "csstuts",
+  "version": "1.0.0",
+  "description": "tuts for css",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "lpuczy",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
