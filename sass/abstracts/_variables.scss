@@ -10,15 +10,29 @@
  * green #1d5a2b rgba(29, 90, 43, 1)
  *
  */
-//COLORS
-$color-primary-light:   #f8e9e6; 
-$color-primary:         #fee5cb;
-$color-primary-dark:    #f0908a;
+//COLORS v1
+// $color-primary-light:   #f8e9e6; 
+// $color-primary:         #fee5cb;
+// $color-primary-dark:    #f0908a;
+
+//COLORS v2
+$color-primary-light:   #a66a66; 
+$color-primary:         #8c323d;
+$color-primary-dark:    #40151f;
+$color-secondary:       #e4c8cd;
+$color-tertiary:        #dfedef;
+
+//COLORS v3
+// $color-primary-light:   #a6dcee; 
+// $color-primary:         #5389a6;
+// $color-primary-dark:    #00040e;
+// $color-secondary:       #dab6c8;
+// $color-tertiary:        #e8ebea;
 
 
 
 $color-grey-light-1: #f7f7f7;
-$color-grey-dark: #1d5a2b;
+$color-grey-dark: #333;
 
 $color-white: #fff;
 $color-black: #000;
@@ -27,3 +41,6 @@ $color-black: #000;
 $grid-width: 114rem;
 $gutter-vertical: 8rem;
 $gutter-horizontal: 6rem;
+
+//FONTS
+$default-font-size: 1.6rem;
