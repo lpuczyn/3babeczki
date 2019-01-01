@@ -10,11 +10,20 @@
  * green #1d5a2b rgba(29, 90, 43, 1)
  *
  */
-
+//COLORS
 $color-primary-light:   #f8e9e6; 
 $color-primary:         #fee5cb;
 $color-primary-dark:    #f0908a;
 
+
+
+$color-grey-light-1: #f7f7f7;
 $color-grey-dark: #1d5a2b;
+
 $color-white: #fff;
 $color-black: #000;
+
+//GRID
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 6rem;
