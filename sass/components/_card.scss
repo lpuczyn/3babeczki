@@ -67,7 +67,7 @@
         border-top-right-radius: 3px;
 
 
-        &__1 {
+        &--1 {
             background-image: 
                 linear-gradient(
                     to right bottom,
@@ -75,7 +75,7 @@
                     $color-secondary-dark),
                 url(../img/bezy.jpg);
         }
-        &__2 {
+        &--2 {
             background-image: 
                 linear-gradient(
                     to right bottom,
@@ -83,7 +83,7 @@
                     $color-primary-dark),
                 url(../img/bezy.jpg);
         }
-        &__3 {
+        &--3 {
             background-image: 
                 linear-gradient(
                     to right bottom,
