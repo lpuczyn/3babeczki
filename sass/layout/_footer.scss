@@ -4,7 +4,7 @@
     padding: 10rem 0;
     font-size: 1.4rem;
 
-    @include repond(tab-port){
+    @include respond(tab-port){
         padding: 8rem 0;
     }
 
@@ -27,7 +27,7 @@
         padding-top: 2rem;
         display: inline-block;
 
-        @include repond(tab-port){
+        @include respond(tab-port){
             width: 100%;
             text-align: center;
         }
@@ -71,7 +71,7 @@
         width: 80%;
         float: right;
 
-        @include repond(tab-port){
+        @include respond(tab-port){
             width: 100%;
             float: none;
         }
