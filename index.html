@@ -15,7 +15,6 @@
         <title>3 babeczki | Radość pieczenia</title>
 	</head>
 	<body>
-
         <div class="navigation">
             <input class="navigation__checkbox" type="checkbox" id="navi-toggle">
             <label class="navigation__button" for="navi-toggle">
@@ -85,10 +84,38 @@
                     </div>
                     <div class="col-1-of-2">
                         <div class="composition">
-                            <img src="img/buleczki_cynamon.jpg" alt="Zdjęcie bułeczki cynamonowe" class="composition__photo composition__photo--p1">
-                            <img src="img/babeczki_z_jablkami.jpg" alt="Zdjęcie babeczki z jabłkami" class="composition__photo composition__photo--p2"> 
-                            <img src="img/klopsy.jpg" alt="Zdjęcie klopsy" class="composition__photo composition__photo--p3">
-                            <img src="img/tort_1.jpg" alt="Zdjęcie tort" class="composition__photo composition__photo--p4">
+
+                            <img srcset="img/buleczki_cynamon.jpg 300w,
+                            img/buleczki_cynamon-large.jpg 1000w"
+                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em)
+                            30vw, 300px"
+                            alt="Zdjęcie bułeczki cynamonowe" 
+                            class="composition__photo composition__photo--p1"
+                            src="img/buleczki_cynamon-large.jpg">
+
+                            <img srcset="img/babeczki_z_jablkami.jpg 300w,
+                            img/babeczki_z_jablkami-large.jpg 1000w"
+                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em)
+                            30vw, 300px"
+                            alt="Zdjęcie babeczki z jabłkami" 
+                            class="composition__photo composition__photo--p2"
+                            src="img/babeczki_z_jablkami-large.jpg">
+
+                            <img srcset="img/klopsy.jpg 300w,
+                            img/klopsy-large.jpg 1000w"
+                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em)
+                            30vw, 300px"
+                            alt="Zdjęcie klopsy" 
+                            class="composition__photo composition__photo--p3"
+                            src="img/klopsy-large.jpg">
+                            
+                            <img srcset="img/tort_1.jpg 300w,
+                            img/tort_1-large.jpg 1000w"
+                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em)
+                            30vw, 300px"
+                            alt="Zdjęcie tort" 
+                            class="composition__photo composition__photo--p4"
+                            src="img/tort_1-large.jpg">
                         </div>                        
                     </div>
                 </div>
@@ -372,7 +399,8 @@
             <div class="footer__logo-box">
                 <picture class="footer__logo">
                     <source srcset="img/logo-small-1x.png 1x, img/logo-small-2x.png 2x" media="(max-width: 37.5em)">
-                    <img srcset="img/logo-1x.png 1x, img/logo-2x.png 2x" alt="Logo" class="footer__logo">
+                    <img srcset="img/logo-1x.png 1x, img/logo-2x.png 2x"
+                    alt="Logo" class="footer__logo" src="img/logo-2x.png">
                 </picture>
                 <div class="row">
                     <div class="col-1-of-2">
