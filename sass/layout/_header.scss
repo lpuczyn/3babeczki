@@ -8,7 +8,7 @@
             rgba($color-primary-light, 0.9), 
             rgba($color-primary, 0.9)
         ),
-        url(../img/bezy.jpg);
+        url(../img/bezy-small.jpg);
     background-size: cover;
     background-position: center;
 
@@ -30,8 +30,18 @@
             0 100%
         );
 
+    @media (min-resolution: 192dpi) and (min-width: 37.5em),
+           (min-width: 125em){
+        background-image: 
+            linear-gradient( 
+                to right bottom, 
+                rgba($color-primary-light, 0.9), 
+                rgba($color-primary, 0.9)
+            ),
+            url(../img/bezy.jpg);
+    }
+    
     @include respond(phone){
-        
         -webkit-clip-path: 
             polygon(
                 0 0,
