@@ -1,7 +1,7 @@
 
 .header {
     position: relative;
-    height: 95vh;
+    height: 85vh;
     background-image: 
         linear-gradient( 
             to right bottom, 
@@ -12,24 +12,26 @@
     background-size: cover;
     background-position: center;
 
-    -webkit-clip-path: 
-        polygon(
-            0 0,
-            100% 0,
-            100% 100%,
-            50% 80%,
-            0 100%
-        );
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)){
+        height: 95vh;
+        -webkit-clip-path: 
+            polygon(
+                0 0,
+                100% 0,
+                100% 100%,
+                50% 80%,
+                0 100%
+            );
 
-    clip-path: 
-        polygon(
-            0 0,
-            100% 0,
-            100% 100%,
-            50% 80%,
-            0 100%
-        );
-
+        clip-path: 
+            polygon(
+                0 0,
+                100% 0,
+                100% 100%,
+                50% 80%,
+                0 100%
+            );
+    }
     @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
            only screen and (min-width: 125em){
         background-image: 
